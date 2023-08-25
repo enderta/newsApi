@@ -1,9 +1,9 @@
-const express = require('express');
-const cors = require('cors');
-const fetch = require('node-fetch');
+import express from 'express';
+import cors from 'cors';
+import fetch from 'node-fetch';
 
 const app = express();
-const port = 10001; 
+const port = 10005; 
 app.use(cors());
 
 app.get('/news', async (req, res) => {
