@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "jobAPI",
+  "name": "newTickerApi",
   "builds": [
     {
       "src": "server.js",
@@ -10,7 +10,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/app.js"
+      "dest": "/server.js"
     }
   ]
 
